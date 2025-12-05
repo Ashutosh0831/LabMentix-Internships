@@ -3,7 +3,7 @@ from pydantic import BaseModel
 import stripe
 from decouple import config
 
-stripe.api_key = config("secret key")  
+stripe.api_key = config("STRIPE_SECRET_KEY")  
 
 router = APIRouter(prefix="/payment", tags=["payment"])
 
