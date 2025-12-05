@@ -43,7 +43,7 @@ export default function Home() {
             className="flex gap-4 mt-8"
           >
             <Link
-              href="/booking/index"
+              href="/login"
               className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-xl text-lg shadow-lg"
             >
               Book a Ride
