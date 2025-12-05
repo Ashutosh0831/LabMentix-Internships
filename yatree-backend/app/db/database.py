@@ -4,7 +4,7 @@ from sqlalchemy.orm import sessionmaker, declarative_base
 # Format:
 # postgresql://username:password@localhost:5432/dbname
 
-DATABASE_URL = ""
+DATABASE_URL = os.getenv("DATABASE_URL")
 
 engine = create_engine(
     DATABASE_URL,
