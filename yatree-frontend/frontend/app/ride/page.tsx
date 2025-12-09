@@ -1,3 +1,5 @@
+"use client";
+
 import api from "../../lib/api";
 
 export default function BookRide() {
