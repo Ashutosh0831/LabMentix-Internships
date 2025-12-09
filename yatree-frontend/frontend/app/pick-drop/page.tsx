@@ -1,3 +1,5 @@
+"use client";
+  
 interface PickupDropFormProps {
   onCalculate: (pickup: string, drop: string) => void;
 }
